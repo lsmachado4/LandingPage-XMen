@@ -1,6 +1,3 @@
-# Landing Page X-Men
-
-
 >Status: concluído
 
 <h1 align='center'> Landing Page X-Men </h1>
