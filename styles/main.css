@@ -1,0 +1,62 @@
+/* ? Main */
+
+.container__main {
+    display: flex;
+    /*Cria divisória da imagem entre direita e esquerda*/
+    margin-top: 3.75rem;
+}
+
+.container__content {
+    height: 27.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.title__span {
+    /* span para alterar a cor da parte específica */
+    color: var(--contrast-color);
+}
+
+.text__description {
+    /*Personalizando o parágrafo*/
+    line-height: 1.25rem;
+    max-width: 31.25rem;
+    font-family: poppinslight;
+
+}
+
+.container__form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.container__form [type="submit"] {
+    /*fazer alteração pontualizada: chamada para mudança*/
+    height: 3.125rem;
+    width: 50%;
+    background-color: var(--contrast-color);
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.container__form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+
+.form__input {
+
+    margin-top: 1.25rem;
+    height: 3.125rem;
+    padding: .9375rem;
+    border-radius: 1.25rem;
+    border: none;
+    font-size: .9375rem;
+
+}
+
+.element__image {
+    width: 42.25rem;
+}

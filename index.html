@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/colors.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/media.css">
+
+    <title> Lading Page </title>
+</head>
+
+<body class="container__body">
+
+
+    <header class="container__header">
+
+        <div class="header__title ">
+            <h1 class="title__first"> Criative</h1>
+
+            <h2 class="title__second"> Marketing</h2>
+        </div>
+
+        <div class="container__menu ">
+            <!-- ? Menu responsivo: Modelo Hambúrguer  -->
+            <div class="container__menu__toggle__selector">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+
+            </div>
+            <nav class="container__menu__nav">
+                <ul class="list__menu__links">
+                    <!--<ul> é p/ criação de lista desordenada; -->
+                    <a class="menu__link" href="#">
+                        <!--Formas para criar links para outras páginas -->
+                        <li class="link__item">Início</li>
+                    </a>
+
+                    <a class="menu__link" href="#">
+                        <li class="link__item">Serviços</li>
+                    </a>
+                    <a class="menu__link" href="#">
+                        <li class="link__item">Sobre</li>
+                    </a>
+                    <a class="menu__link" href="#">
+                        <li class="link__item">Contato</li>
+                    </a>
+                    <a class="menu__link" href="#" id="Inscreva-se-button">
+                        <li class="link__item">Já tem uma conta?</li>
+                    </a>
+                    <!--Nesse caso o <href > vai endereçar esse link para outra página-->
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="container__main">
+
+        <!--Parte principal da página-->
+        <aside class="container__content">
+
+            <!--serve para dividir a página em duas partes. -->
+            <div class="content__title">
+
+
+                <h2 class="title__second">
+
+                    <span class="title__span">Inscreva-se agora </span>
+                </h2>
+
+                <h2 class="title__second">na Newslatter</h2>
+            </div>
+
+            <p class="text__description">
+                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+                opposed
+                to using 'Content here, content here', making it look like readable English.
+            </p>
+
+            <form class="container__form">
+                <!--Inserir formulário-->
+                <input class="form__input" type="text" placeholder="Nome">
+                <input class="form__input" type="email" placeholder="E-mail">
+                <input class="form__input" id="button" type="submit" value="Enviar">
+                <!--A utilização do <submit> acompanha o <value>-->
+
+            </form>
+        </aside>
+
+        <article class="container__image">
+            <!--semântica para posicionar imagem --->
+            <img class="element__image" src="./components/assets/X-Men-PNG-Image-HD.png" alt="Heróis do X-men">
+            <!--Apropriado para descrever imagem <alt> -->
+
+        </article>
+    </main>
+
+
+
+
+
+
+
+    <script src="scrips/menu.js"></script>
+</body>
+
+</html>

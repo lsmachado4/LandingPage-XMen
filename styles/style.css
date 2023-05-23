@@ -1,0 +1,15 @@
+.container__body {
+    background-color: var(--background-color);
+    /*cores do fundo*/
+    color: var(--text-color);
+    /*cores das letras  e como está em no corpo, todas as cores irão mudar*/
+    font-family: poppinsregular;
+    /*Essa fonte está sendo utilizada de outro arquivo "fonts.css" */
+    max-width: 1200px;
+    /* Serve para redimensionar a tela em diferentes ZOOMS*/
+    margin: 2% auto;
+    /*centralizando*/
+}
+
+
+

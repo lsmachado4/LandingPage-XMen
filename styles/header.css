@@ -1,0 +1,74 @@
+/* ? Header */
+.container__header {
+    height: 8.4375rem;
+    display: flex;
+    /*método de estilização para posicionar os flexbox*/
+    flex-direction: row;
+    /* Deixa a organização em linha*/
+    justify-content: space-between;
+    /*Abre um espaço entre as bordas do cabeçalho*/
+    align-items: center;
+    /*Alinhamento*/
+    overflow: hidden;
+}
+
+.header__title {
+
+    height: 8.625rem;
+    display: flex;
+    flex-direction: column;
+    /*Coluna fixa*/
+    line-height: 6.0625rem;
+    /*Reduzir os espaços entre os letreiros*/
+
+}
+
+.title__first {
+    
+    font-weight: 200;
+}
+
+.title__second {
+    height: 5rem;
+    font-size: 3.5rem;
+    line-height: .625rem;
+    font-family: poppinsmedium;
+    margin-bottom: -0.625rem;
+
+}
+
+.link__item {
+    /*Elementos da lista*/
+    display: inline-block;
+    /*Faz que as os item (sobre, início, serviços) fiquem horizontalizados */
+    margin: 1.25rem;
+}
+
+.menu__link {
+    /*Alterando as cores dos items*/
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    /*Efeito para alterar cores quando o mouse passar por cima dos ítens */
+    color: var(--contrast-color);
+    transition: 0.3s all;
+    /*Alterando o tempo de resposta do efeito*/
+}
+
+
+#Inscreva-se-button {
+    border: .125rem solid var(--contrast-color);
+    /*tipo de borda*/
+    padding: .625rem;
+    /*Margin interna da borda*/
+    border-radius: .9375rem;
+    /*Deixando a borda arredondada*/
+
+}
+
+#Inscreva-se-button:hover {
+    background-color: var(--contrast-color);
+    color: var(--text-color);
+}
